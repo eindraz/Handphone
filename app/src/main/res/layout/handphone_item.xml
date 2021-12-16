@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#FFFFFF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp">
+
+        <TextView
+            android:id="@+id/txtNama"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nama"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:id="@+id/txtOS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="OS"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:layout_marginTop="4dp"
+            android:id="@+id/txtChipset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chipset"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:layout_marginTop="4dp"
+            android:id="@+id/txtDisplay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Display"
+            android:textSize="16sp"/>
+        <TextView
+            android:layout_marginTop="4dp"
+            android:id="@+id/txtCamera"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Camera"
+            android:textSize="16sp"/>
+        <TextView
+            android:layout_marginTop="4dp"
+            android:id="@+id/txtMemory"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Memory"
+            android:textSize="16sp"/>
+        <TextView
+            android:layout_marginTop="4dp"
+            android:id="@+id/txtBattery"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Battery"
+            android:textSize="16sp"/>
+        <TextView
+            android:layout_marginTop="4dp"
+            android:id="@+id/txtHarga"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Harga"
+            android:textSize="16sp"/>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#000000"/>
+
+</LinearLayout>
